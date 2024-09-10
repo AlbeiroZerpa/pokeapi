@@ -1,0 +1,10 @@
+.SpinnerLoad{
+    align-items: center;
+    height: 90vh;
+    background-color: #c83636 !important;
+}
+
+.customSpinner{
+    width: 4rem;
+    height: 4rem;
+}

@@ -1,0 +1,92 @@
+.pokeRed {
+  background-color: #c83636 !important;
+}
+
+.pokeblue {
+  background-color: #27aafc !important;
+}
+.pointsBase {
+  background-color: #1e1e1e !important;
+  height: 100%;
+}
+.containerPokeball {
+  display: flex !important;
+  background-color: #ffffff !important;
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  border-radius: 100% !important;
+}
+
+.pokeballEvol {
+  display: flex !important;
+  background-color: #ffffff !important;
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  border-radius: 100% !important;
+}
+
+.containerEvo {
+  background-color: #1e1e1e !important;
+}
+
+.textDataPoke {
+  color: white;
+  background-color: #27aafc00 !important;
+  border: 0 !important;
+}
+
+.btnSearch {
+  background-color: #e52d2d !important;
+}
+
+.rowEvol {
+  display: flex;
+  justify-content: center;
+}
+
+.pokedex {
+  min-height: calc(90vh) !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column;
+}
+
+.badgeType {
+  max-height: 50px;
+  max-width: 50px;
+}
+.containerEntry {
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .pointsBase, .containerEntry {
+    margin: 0; 
+    padding: 1rem;
+  }
+
+  .badgeType {
+    margin: 0.5rem;
+  }
+
+  .containerPokeball {
+    display: flex !important;
+    background-color: #ffffff !important;
+    width: 100vw !important;
+    height: 45vh !important;
+    max-width: 300px !important;
+    border-radius: 100% !important;
+  }
+  .containerEvo{
+    padding: 1em !important;
+    margin-bottom: 2em !important;
+  }
+
+}
